@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -16,10 +16,6 @@ function Header() {
                                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                         </ul>
-                        {/* <form className="d-flex ms-2" role="search" onSubmit={handleSubmit}>
-                            <input value={text} onChange={(e) => setText(e.target.value)} className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-success" type="submit">Search</button>
-                        </form> */}
                     </div>
                 </div>
             </nav>
