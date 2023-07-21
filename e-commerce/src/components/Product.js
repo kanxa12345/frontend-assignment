@@ -44,7 +44,7 @@ function Product() {
     return (
         <section className='my-4'>
             <div className="container">
-                <div className='d-flex justify-content-between my-4'>
+                <div className='d-flex gap-2 justify-content-between my-4'>
                     <div>
                         <form onSubmit={(e) => e.preventDefault()}></form>
                         <input className='form-control' placeholder='search' type="text" name='search' value={text} onChange={updateFilterValue} />

@@ -24,10 +24,10 @@ function ProductDetail() {
     const Loading = () => {
         return (
             <>
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
                     <Skeleton height={400} />
                 </div>
-                <div className="col-lg-6" style={{ lineHeight: 2 }}>
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12" style={{ lineHeight: 2 }}>
                     <Skeleton height={50} width={300} />
                     <Skeleton height={75} />
                     <Skeleton height={25} width={150} />
@@ -41,10 +41,10 @@ function ProductDetail() {
     const ShowProduct = () => {
         return (
             <>
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12 mb-4">
                     <img src={product.image} alt={product.title} height="400px" width="400px" style={{ objectFit: 'contain' }} />
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                     <h4 className='text-uppercase text-black-50'>
                         {product.category}
                     </h4>
