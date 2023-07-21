@@ -2,10 +2,10 @@
   height: 300px;
   object-fit: contain;
 }
-.card-text-custom {
+/* .card-text-custom {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-}
+} */
